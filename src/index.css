@@ -73,14 +73,15 @@ footer{
 .container-img img{
 
   max-width: 18vw;
+  max-height: 40vh;
   width: 100%;
-  height: 30vh;
+  height:  100%;
   object-fit: cover;
   cursor: pointer;
   border-radius: 2%;
   filter:drop-shadow( 5px 5px 5px rgb(0, 0, 0, 0.5));
   transition: all 0.3s ease-out;
-  border: solid rgb(111, 134, 119) 10px;
+  border: solid rgb(111, 134, 119) .8rem;
   margin: 1.5rem;
   
   
@@ -88,7 +89,7 @@ footer{
 
 .container-img img:hover{
   transform: scale(1.05, 1.05);
-  border: solid rgb(111, 118, 134) 10px;
+  border: solid rgb(111, 118, 134) .8rem;
 }
 
 .titulo{
@@ -125,3 +126,286 @@ footer{
 
 
 
+/* Responsive card  */
+
+
+
+@media(max-width: 400.98px){
+ 
+  .container-img img{
+
+    max-width: 30vw;
+  
+    width: 100%;
+    height: 12vh;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 2%;
+    filter:drop-shadow( 5px 5px 5px rgb(0, 0, 0, 0.5));
+    transition: all 0.3s ease-out;
+    border: solid rgb(111, 134, 119) .8rem;
+    margin: auto;
+    margin-right: .5rem;
+    
+    
+    
+  }
+
+  .container-img img:hover{
+    transform: scale(1.05, 1.05);
+    border: solid rgb(111, 118, 134) .8rem;
+  }
+             
+            
+}
+    
+    
+@media screen and (min-width: 401px) and (max-width: 535.98px){
+    
+  .container-img img{
+
+    max-width: 30vw;
+  
+    width: 100%;
+    height: 15vh;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 2%;
+    filter:drop-shadow( 5px 5px 5px rgb(0, 0, 0, 0.5));
+    transition: all 0.3s ease-out;
+    border: solid rgb(111, 134, 119) .8rem;
+    margin: auto;
+    margin-right: .7rem;
+    
+    
+    
+  }
+        
+
+}
+      
+      
+      
+      
+@media screen and (min-width: 536px) and (max-width: 577.8px){
+
+  .container-img img{
+
+    max-width: 30vw;
+  
+    width: 100%;
+    height: 15vh;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 2%;
+    filter:drop-shadow( 5px 5px 5px rgb(0, 0, 0, 0.5));
+    transition: all 0.3s ease-out;
+    border: solid rgb(111, 134, 119) .8rem;
+    margin: auto;
+    margin-right: .7rem;
+    
+    
+    
+  }
+
+}
+
+@media screen and (min-width: 578px) and (max-width: 666.98px){
+
+  .container-img img{
+
+    max-width: 30vw;
+  
+    width: 100%;
+    height: 15vh;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 2%;
+    filter:drop-shadow( 5px 5px 5px rgb(0, 0, 0, 0.5));
+    transition: all 0.3s ease-out;
+    border: solid rgb(111, 134, 119) .8rem;
+    margin: auto;
+    margin-right: .7rem;
+    
+    
+    
+  }
+
+
+}
+
+@media screen and (min-width: 667px) and (max-width: 735px){
+
+  .container-img img{
+
+    max-width: 30vw;
+  
+    width: 100%;
+    height: 15vh;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 2%;
+    filter:drop-shadow( 5px 5px 5px rgb(0, 0, 0, 0.5));
+    transition: all 0.3s ease-out;
+    border: solid rgb(111, 134, 119) .8rem;
+    margin: auto;
+    margin-right: .7rem;
+    
+    
+    
+  }
+
+}
+
+
+@media screen and (min-width: 736px) and (max-width: 767px){
+
+  .container-img img{
+
+    max-width: 30vw;
+  
+    width: 100%;
+    height: 15vh;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 2%;
+    filter:drop-shadow( 5px 5px 5px rgb(0, 0, 0, 0.5));
+    transition: all 0.3s ease-out;
+    border: solid rgb(111, 134, 119) .8rem;
+    margin: auto;
+    margin-right: .7rem;
+    
+    
+    
+  }
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 833.99px){
+
+  .container-img img{
+
+    max-width: 25vw;
+  
+    width: 100%;
+    height: 15vh;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 2%;
+    filter:drop-shadow( 5px 5px 5px rgb(0, 0, 0, 0.5));
+    transition: all 0.3s ease-out;
+    border: solid rgb(111, 134, 119) .8rem;
+    margin: auto;
+    margin-right: 1rem;
+    
+    
+    
+  }
+
+}
+
+
+      
+       
+      
+      
+      
+@media screen and (min-width: 834px) and  (max-width: 895.98px) {
+
+  .container-img img{
+
+    max-width: 25vw;
+  
+    width: 100%;
+    height: 15vh;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 2%;
+    filter:drop-shadow( 5px 5px 5px rgb(0, 0, 0, 0.5));
+    transition: all 0.3s ease-out;
+    border: solid rgb(111, 134, 119) .8rem;
+    margin: auto;
+    margin-right: 1rem;
+    
+    
+    
+  }
+
+}
+
+
+@media screen and (min-width: 896px) and  (max-width: 1023.98px) {
+
+ 
+
+
+}
+
+
+
+
+    
+    
+@media screen and (min-width: 1024px) and  (max-width: 1239.98px) {
+    
+  .container-img img{
+
+    max-width: 25vw;
+  
+    width: 100%;
+    height: 15vh;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 2%;
+    filter:drop-shadow( 5px 5px 5px rgb(0, 0, 0, 0.5));
+    transition: all 0.3s ease-out;
+    border: solid rgb(111, 134, 119) .8rem;
+    margin: auto;
+    margin-right: 1rem;
+    
+    
+    
+  }
+}  
+
+
+
+
+@media screen and (min-width: 1240px) and  (max-width: 1379.98px) {
+    
+
+}  
+
+
+
+
+@media screen and (min-width: 1380px) and  (max-width: 1450px) {
+    
+
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

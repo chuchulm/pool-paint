@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from "react-router-dom";
+
 
 export const Navbar = () => {
     return (
@@ -9,7 +11,7 @@ export const Navbar = () => {
                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                  <span className="navbar-toggler-icon"></span>
                </button>
-               <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
                  <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                    <li className="nav-item">
                      <a className="nav-link active" aria-current="page" href="#">Home</a>
@@ -22,9 +24,9 @@ export const Navbar = () => {
                        Services
                      </a>
                      <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                       <li><a className="dropdown-item" href="#">Action</a></li>
-                       <li><a className="dropdown-item" href="#">Another action</a></li>
-                       <li><a className="dropdown-item" href="#">Something else here</a></li>
+                       <li><Link className="dropdown-item" to="#">Action</Link></li>
+                       <li><Link className="dropdown-item" to="#">Another action</Link></li>
+                       <li><Link className="dropdown-item" to="#">Something else here</Link></li>
                      </ul>
                    </li>
                    
@@ -36,12 +38,13 @@ export const Navbar = () => {
                   <a href="https://www.instagram.com/lemom.accesorios/" target="blank" title="Instagram"><i className="fab fa-instagram"></i></a>
                   <a href="https://api.whatsapp.com/send?phone=+0014077790547&text=welcome%20a%20Pool&paint%20estamos%20para%20ayudarte" target="blank" title="WhatsApp"><i className="fab fa-whatsapp"></i></a>
                   
-              </div>
-                 <form className="d-flex">
-                   {/* <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                   <button className="btn btn-outline-success" type="submit">Search</button> */}
-                 </form>
-               </div>
+                 </div>
+                
+                 <Link to="/login"><button className="btn btn-outline-light" type="submit">Login</button></Link>
+                
+                 
+                 
+                </div>
              </div>
         </nav>
             

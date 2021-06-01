@@ -1,16 +1,12 @@
 import React from 'react';
-import { Navbar } from './component/Navbar';
+import { Navbar } from './component/ui/Navbar';
 import img1 from './img/poolScreen.jpg'
 import img2 from './img/pool1.jpg'
 import img3 from './img/paint1.jpg'
-import IconoWhatsapp from './component/iconoWhatsapp';
+import IconoWhatsapp from './component/ui/iconoWhatsapp';
 
 
 function App() {
-
- 
-
-
 
 
   return (
