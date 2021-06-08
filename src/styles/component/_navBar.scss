@@ -1,0 +1,38 @@
+
+
+.navBar-fixed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: #16151515;
+  
+}
+
+.logoHeader{
+    width: 10vw;
+    border-radius: .5rem;
+}
+
+.navbar{
+    z-index: 1000;
+  }
+
+
+
+.redes{
+  /* background: white; */
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 3rem;
+  color: #fff;
+  
+  
+}
+
+.redes i{
+  margin: 1rem;
+  color: #fff;
+}
+  

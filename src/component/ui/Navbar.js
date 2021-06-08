@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import logo from "../../img/fitpoolScreenblack.png"
 
 
 export const Navbar = () => {
@@ -7,14 +8,14 @@ export const Navbar = () => {
 
         <nav className="navbar navbar-expand-lg navbar-dark navBar-fixed position-sticky">
              <div className="container-fluid">
-               <a className="navbar-brand" href="#">Pool&Paint</a>
+             <Link to="/"><img src={logo} alt="ifixPoolScreens" className="logoHeader"/></Link>
                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                  <span className="navbar-toggler-icon"></span>
                </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                  <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                    <li className="nav-item">
-                     <a className="nav-link active" aria-current="page" href="#">Home</a>
+                     <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                    </li>
                    <li className="nav-item">
                      <a className="nav-link active" href="#">Company</a>
@@ -24,9 +25,12 @@ export const Navbar = () => {
                        Services
                      </a>
                      <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                       <li><Link className="dropdown-item" to="#">Action</Link></li>
-                       <li><Link className="dropdown-item" to="#">Another action</Link></li>
-                       <li><Link className="dropdown-item" to="#">Something else here</Link></li>
+                       <li><Link className="dropdown-item" to="#">Paint</Link></li>
+                       <li><Link className="dropdown-item" to="#">Bath remodelation</Link></li>
+                       <li><Link className="dropdown-item" to="#">Floors installation </Link></li>
+                       <li><Link className="dropdown-item" to="#">Home repairs </Link></li>
+                       <li><Link className="dropdown-item" to="#">screens replace </Link></li>
+                       <li><Link className="dropdown-item" to="#">Presure wash </Link></li>
                      </ul>
                    </li>
                    
@@ -40,7 +44,7 @@ export const Navbar = () => {
                   
                  </div>
                 
-                 <Link to="/login"><button className="btn btn-outline-light" type="submit">Login</button></Link>
+                 {/* <Link to="/login"><button className="btn btn-outline-light" type="submit">Login</button></Link> */}
                 
                  
                  

@@ -1,8 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import App from "../App";
-import { LoginScreen } from "../component/auth/LoginScreen";
-import { RegisterScreen } from "../component/auth/RegisterScreen";
+import { FixScreen } from "../component/fixScreen/FixScreen";
+
+import { Floor } from "../component/floor/FloorScreen";
+import { Paint } from "../component/paint/PaintScreen";
 
 
 export default function AppRouter() {
@@ -16,9 +18,10 @@ export default function AppRouter() {
             <Switch>
                
             
-                <Route path="/login" component={LoginScreen}/>
-                <Route path="/register" component={RegisterScreen}/>
-                <Route path="/" component={App} />
+                <Route path="/floor" component={Floor}/>
+                <Route path="/fixscreen" component={FixScreen}/>
+                <Route path="/paint" component={Paint}/>
+                <Route path="/" exact component={App} />
                   
                  <Redirect to="/" />
             </Switch>
